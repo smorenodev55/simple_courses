@@ -1,0 +1,41 @@
+{
+  "name": "surfcourses",
+  "version": "1.0.0",
+  "description": "Courses downloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config ./webpack.prod.js"
+  },
+  "author": "Any",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "json-loader": "^0.5.7",
+    "md5": "^2.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.13.1",
+    "react-awesome-player": "^1.0.11",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-table-next": "^4.0.1",
+    "react-bootstrap-table2-filter": "^1.3.1",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "style-loader": "^1.1.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "video.js": "^7.7.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -1,0 +1,11 @@
+# OSX
+#
+.DS_Store
+
+dist/
+src/assets/media
+src/config/env.js
+
+# node.js
+#
+node_modules/
