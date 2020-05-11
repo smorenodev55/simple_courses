@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import HomePlayer from './components/home/homPlayer';
+import Home from './components/home/home';
 
 class App extends Component{
 
   render(){
-    return <HomePlayer />
+    return <Home />
   }
 }
 

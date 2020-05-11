@@ -1,0 +1,61 @@
+{
+  "courses": [
+    {
+      "name": "Programming - Python", 
+      "color": "#BCCEF4",
+      "list":[
+        {
+          "chapter": "Capitulo 1",
+          "videos":[
+            {
+              "name": "Inicio Python",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            },
+            {
+              "name": "Intermedio Python",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            }
+          ]
+        },
+        {
+          "chapter": "Capitulo 2",
+          "videos":[
+            {
+              "name": "Inicio Python",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            },
+            {
+              "name": "Intermedio Python",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": " Security - .Net core",
+      "color": "#FAE187", 
+      "list":[
+          {
+          "chapter": "Capitulo 1",
+          "videos":[
+            {
+              "name": "Inicio .net core",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            },
+            {
+              "name": "Intermedio .net core",
+              "video": "ejemplo.mp4",
+              "subtitle": "example.srt"
+            }
+          ]
+         }
+      ]
+    }
+  ]
+}
