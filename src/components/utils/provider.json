@@ -9,13 +9,13 @@
           "videos":[
             {
               "name": "Inicio Python",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "programming/python/capitulo_1/1settings.mp4",
+              "subtitle": "programming/python/capitulo_1/1settings.vtt"
             },
             {
               "name": "Intermedio Python",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "programming/python/capitulo_1/1settings.mp4",
+              "subtitle": "programming/python/capitulo_1/1settings.vtt"
             }
           ]
         },
@@ -24,13 +24,13 @@
           "videos":[
             {
               "name": "Inicio Python",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "programming/python/capitulo_1/1settings.mp4",
+              "subtitle": "programming/python/capitulo_1/1settings.vtt"
             },
             {
               "name": "Intermedio Python",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "programming/python/capitulo_1/1settings.mp4",
+              "subtitle": "programming/python/capitulo_1/1settings.vtt"
             }
           ]
         }
@@ -45,13 +45,13 @@
           "videos":[
             {
               "name": "Inicio .net core",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "security/red/capitulo_1/1settings.mp4",
+              "subtitle": "security/red/capitulo_1/1settings.vtt"
             },
             {
               "name": "Intermedio .net core",
-              "video": "ejemplo.mp4",
-              "subtitle": "example.srt"
+              "video": "security/red/capitulo_1/1settings.mp4",
+              "subtitle": ""
             }
           ]
          }

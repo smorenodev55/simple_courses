@@ -12,11 +12,11 @@ class HomePlayer extends Component {
       //poster: "http://pic2.52pk.com/files/130514/1283314_143556_2145.jpg",
       sources: [{
         type: "video/mp4",
-        src: `${__dirname}src/assets/media/1settings.mp4`
+        src: `${__dirname}src/assets/media/${this.props.video}`
       }],
       subtitles: [{
         language: 'en',
-        url: `${__dirname}src/assets/media/1settings.vtt`,
+        url: `${__dirname}src/assets/media/${this.props.subtitle}`,
         label: "EN"
       }],
       defaultSubtitle: 'en',

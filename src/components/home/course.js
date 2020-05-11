@@ -16,15 +16,27 @@ class Course extends Component {
     }
   }
 
+  componentDidMount(){
+    this.setState({selected: this.props.item.list[0].videos[0]})
+  }
+
+  setVideo(selected){
+    this.setState({selected})
+  }
+
   render() {
     return (
       <div>
         <Row>
-          <Col><Button onClick={()=>this.props.backCourse()} variant="warning">Volver</Button> {this.props.item.name}</Col>
+          <Col>
+             <Button onClick={()=>this.props.backCourse()} variant="warning">Volver</Button> {this.props.item.name} { (this.state.selected.name !== undefined ? `- ${this.state.selected.name}` : '') }
+          </Col>
         </Row>
         <Row>
         <Col>
-           <PlayerHome />
+          { this.state.selected.video !== undefined && 
+           <PlayerHome video={this.state.selected.video} subtitle={this.state.selected.subtitle} />
+          }
         </Col>
         {/** listado de capitulos y videos */}
         <Col xs sm md lg="2">
@@ -33,7 +45,7 @@ class Course extends Component {
               <div key={index}>
                 <div><strong>{chapter.chapter}</strong></div>
                 { chapter.videos.map((video,idx)=> 
-                   <div style={{backgroundColor: '#CCE8F7',cursor:'pointer'}}>
+                   <div key={idx} onClick={()=>this.setVideo(video)} style={{backgroundColor: '#CCE8F7',cursor:'pointer'}}>
                      <div style={{backgroundColor:'#000',height:0.1}}></div>
                      {video.name}
                    </div>
