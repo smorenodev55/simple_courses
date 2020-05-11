@@ -12,7 +12,8 @@ class Course extends Component {
     super(props);
 
     this.state = {
-      selected: {}
+      selected: {},
+      update:false
     }
   }
 
@@ -21,7 +22,10 @@ class Course extends Component {
   }
 
   setVideo(selected){
-    this.setState({selected})
+    this.setState({selected,update:true})
+    setTimeout(()=>{
+      this.setState({update:false})
+    },500)
   }
 
   render() {
@@ -35,7 +39,11 @@ class Course extends Component {
         <Row>
         <Col>
           { this.state.selected.video !== undefined && 
-           <PlayerHome video={this.state.selected.video} subtitle={this.state.selected.subtitle} />
+           <div>
+             {this.state.update ? <div></div> :             
+             <PlayerHome video={this.state.selected.video} subtitle={this.state.selected.subtitle} name={this.state.selected.name} />
+            }
+           </div>
           }
         </Col>
         {/** listado de capitulos y videos */}

@@ -8,6 +8,7 @@ class HomePlayer extends Component {
     super(props);
 
   this.state = {
+    name: this.props.name,
     options: {
       //poster: "http://pic2.52pk.com/files/130514/1283314_143556_2145.jpg",
       sources: [{
@@ -24,6 +25,15 @@ class HomePlayer extends Component {
       width: 400
     }
   }
+}
+
+componentWillReceiveProps(nextProps){
+  console.log('old_name',this.state.name, 'new',nextProps.name) 
+  if(this.state.name != nextProps.name){
+     let {options} = this.state;
+     options.sources[0]['src'] = `${__dirname}src/assets/media/${nextProps.video}`;
+     this.setState({options,name:nextProps.name})
+   }
 }
 
   loadeddata() {
