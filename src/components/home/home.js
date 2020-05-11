@@ -20,7 +20,7 @@ class Home extends Component {
   componentDidMount() {
     fetch(`${__dirname}src/components/utils/provider.json`)
       .then(response => response.json())
-      .then(data => { console.log('dt',data),this.setState({ courses: data.courses })});
+      .then(data => { this.setState({ courses: data.courses })});
   }
 
   selectCourse(selected){

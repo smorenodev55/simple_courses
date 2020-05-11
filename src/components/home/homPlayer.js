@@ -37,31 +37,31 @@ componentWillReceiveProps(nextProps){
 }
 
   loadeddata() {
-    console.log('loadeddata')
+    //console.log('loadeddata')
   }
   canplay() {
-    console.log('canplay')
+    //console.log('canplay')
   }
   canplaythrough() {
-    console.log('canplaythrough')
+    //console.log('canplaythrough')
   }
   play() {
-    console.log('play')
+    //console.log('play')
   }
   pause() {
-    console.log('pause')
+    //console.log('pause')
   }
   waiting() {
-    console.log('waiting')
+    //console.log('waiting')
   }
   playing() {
-    console.log('playing')
+    //console.log('playing')
   }
   ended() {
-    console.log('ended')
+    //console.log('ended')
   }
   error() {
-    console.log('error')
+    //console.log('error')
   }
 
   render () {

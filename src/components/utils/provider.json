@@ -37,6 +37,197 @@
       ]
     },
     {
+      "name": "Programming - AWS Security Speciality", 
+      "color": "#BCCEF4",
+      "list":[
+        {
+          "chapter": "1. Introduction to AWS",
+          "videos":[
+            {
+              "name": "1. Exploring Amazon Web Services",
+              "video": "programming/AWS Security Speciality Certification/1. Introduction to AWS/1. Exploring Amazon Web Services.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/1. Introduction to AWS/1. Exploring Amazon Web Services.vtt"
+            },
+            {
+              "name": "2. Creating an AWS account",
+              "video": "programming/AWS Security Speciality Certification/1. Introduction to AWS/2. Creating an AWS account.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/1. Introduction to AWS/2. Creating an AWS account.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "2. AWS CLI Command Line Interface",
+          "videos":[
+            {
+              "name": "1. AWS CLI Installation and Configuring with IAM user credentials",
+              "video": "programming/AWS Security Speciality Certification/2. AWS CLI Command Line Interface/1. AWS CLI Installation and Configuring with IAM user credentials.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/2. AWS CLI Command Line Interface/1. AWS CLI Installation and Configuring with IAM user credentials.vtt"
+            },
+            {
+              "name": "2. AWS CLI Command Reference",
+              "video": "programming/AWS Security Speciality Certification/2. AWS CLI Command Line Interface/2. AWS CLI Command Reference.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/2. AWS CLI Command Line Interface/2. AWS CLI Command Reference.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "3. AWS Certification Exam",
+          "videos":[
+            {
+              "name": "1. Introduction to AWS Certification",
+              "video": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/1. Introduction to AWS Certification.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/1. Introduction to AWS Certification.vtt"
+            },
+            {
+              "name": "2. Cloud Practitioner",
+              "video": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/2. Cloud Practitioner.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/2. Cloud Practitioner.vtt"
+            },
+            {
+              "name": "3. Security Speciality",
+              "video": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/3. Security Speciality.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/3. AWS Certification Exam/3. Security Speciality.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "4. Amazon Artifact",
+          "videos":[
+            {
+              "name": "1. Artifact",
+              "video": "programming/AWS Security Speciality Certification/4. Amazon Artifact/1. Artifact.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/4. Amazon Artifact/1. Artifact.vtt"
+            },
+            {
+              "name": "2. Artifact- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/4. Amazon Artifact/2. Artifact- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/4. Amazon Artifact/2. Artifact- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "5. Certificate Manager",
+          "videos":[
+            {
+              "name": "1. Certificate Manager",
+              "video": "programming/AWS Security Speciality Certification/5. Certificate Manager/1. Certificate Manager.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/5. Certificate Manager/1. Certificate Manager.vtt"
+            },
+            {
+              "name": "2. Certificate Manager- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/5. Certificate Manager/2. Certificate Manager- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/5. Certificate Manager/2. Certificate Manager- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "6. CloudHSM",
+          "videos":[
+            {
+              "name": "1. CloudHSM",
+              "video": "programming/AWS Security Speciality Certification/6. CloudHSM/1. CloudHSM.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/6. CloudHSM/1. CloudHSM.vtt"
+            },
+            {
+              "name": "2. CloudHSM- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/6. CloudHSM/2. CloudHSM- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/6. CloudHSM/2. CloudHSM- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "7. Directory Service",
+          "videos":[
+            {
+              "name": "1. Directory Service",
+              "video": "programming/AWS Security Speciality Certification/7. Directory Service/1. Directory Service.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/7. Directory Service/1. Directory Service.vtt"
+            },
+            {
+              "name": "2. Directory Service- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/7. Directory Service/2. Directory Service- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/7. Directory Service/2. Directory Service- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "8. GuardDuty",
+          "videos":[
+            {
+              "name": "1. GuardDuty",
+              "video": "programming/AWS Security Speciality Certification/8. GuardDuty/1. GuardDuty.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/8. GuardDuty/1. GuardDuty.vtt"
+            },
+            {
+              "name": "2. GuardDuty- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/8. GuardDuty/2. GuardDuty- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/8. GuardDuty/2. GuardDuty- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "9. Inspector",
+          "videos":[
+            {
+              "name": "1. Inspector",
+              "video": "programming/AWS Security Speciality Certification/9. Inspector/1. Inspector.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/9. Inspector/1. Inspector.vtt"
+            },
+            {
+              "name": "2. Inspector- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/9. Inspector/2. Inspector- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/9. Inspector/2. Inspector- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "10. Secrets Manager",
+          "videos":[
+            {
+              "name": "1. Secrets Manager",
+              "video": "programming/AWS Security Speciality Certification/10. Secrets Manager/1. Secrets Manager.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/10. Secrets Manager/1. Secrets Manager.vtt"
+            },
+            {
+              "name": "2. Secrets Manager- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/10. Secrets Manager/2. Secrets Manager- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/10. Secrets Manager/2. Secrets Manager- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "11. Single Sign-On",
+          "videos":[
+            {
+              "name": "1. Single Sign-On",
+              "video": "programming/AWS Security Speciality Certification/11. Single Sign-On/1. Single Sign-On.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/11. Single Sign-On/1. Single Sign-On.vtt"
+            },
+            {
+              "name": "2. Single Sign-On- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/11. Single Sign-On/2. Single Sign-On- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/11. Single Sign-On/2. Single Sign-On- PRACTICAL.vtt"
+            }
+          ]
+        },
+        {
+          "chapter": "12. WAF and Shield",
+          "videos":[
+            {
+              "name": "1. WAF and Shield",
+              "video": "programming/AWS Security Speciality Certification/12. WAF and Shield/1. WAF and Shield.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/12. WAF and Shield/1. WAF and Shield.vtt"
+            },
+            {
+              "name": "2. WAF and Shield- PRACTICAL",
+              "video": "programming/AWS Security Speciality Certification/12. WAF and Shield/2. WAF and Shield- PRACTICAL.mp4",
+              "subtitle": "programming/AWS Security Speciality Certification/12. WAF and Shield/2. WAF and Shield- PRACTICAL.vtt"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": " Security - .Net core",
       "color": "#FAE187", 
       "list":[
