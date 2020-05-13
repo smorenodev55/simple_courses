@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {
   Row,
-  Col
+  Col,
+  Container,
+  ListGroup
 } from 'react-bootstrap';
 import Course from './course'
 
@@ -34,40 +36,32 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Row>
-          <Col style={styles.header}>
-             Surf Courses
-          </Col>
-        </Row>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <a class="navbar-brand" href="#">Surf Courses</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <Container style={{marginTop: 30}}>
         <Row>
           <Col>
              { (this.state.show_course) ? 
                 <Course backCourse={this.backCourse.bind(this)} item={this.state.selected}/>  :
-                  <div>
+                <ListGroup>
                   { this.state.courses.map((item,index)=>
-                      <div key={index} onClick={()=>this.selectCourse(item)} style={{backgroundColor:item.color, height: 30, cursor: 'pointer'}}>
-                        <div style={{backgroundColor:'#000',height:0.1}}></div>
+                      <ListGroup.Item variant="light" key={index} onClick={()=>this.selectCourse(item)}>
                         {item.name}
-                      </div>
+                      </ListGroup.Item>
                       )
                   }
-                  </div>
+                  </ListGroup>
               }
           </Col>
         </Row>
+        </Container>
       </div>
     )
   }
-}
-
-const styles = {
-  header: {
-    backgroundColor: '#0747A6',
-    color: '#ffff',
-    height: '60',
-    paddingTop: '20',
-    paddingLeft: '50'
-  },
 }
 
 export default Home;

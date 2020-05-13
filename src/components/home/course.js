@@ -3,7 +3,9 @@ import PlayerHome from './homPlayer'
 import {
   Row,
   Col,
-  Button
+  Button,
+  Card,
+  ListGroup
 } from 'react-bootstrap';
 
 class Course extends Component {
@@ -33,10 +35,10 @@ class Course extends Component {
       <div>
         <Row>
           <Col>
-             <Button onClick={()=>this.props.backCourse()} variant="warning">Volver</Button> {this.props.item.name} { (this.state.selected.name !== undefined ? `- ${this.state.selected.name}` : '') }
+             <Button size="lg" onClick={()=>this.props.backCourse()} variant="outline-danger"> {`<< Volver `}</Button> &nbsp;&nbsp;&nbsp;&nbsp;{this.props.item.name} { (this.state.selected.name !== undefined ? `- ${this.state.selected.name}` : '') }
           </Col>
         </Row>
-        <Row>
+        <Row style={{marginTop:40}}>
         <Col>
           { this.state.selected.video !== undefined && 
            <div>
@@ -47,19 +49,20 @@ class Course extends Component {
           }
         </Col>
         {/** listado de capitulos y videos */}
-        <Col xs sm md lg="2">
+        <Col xs="2" sm="2" md="2" lg="2" style={{marginRight:30}}>
           {
             this.props.item.list.map((chapter,index)=> 
-              <div key={index}>
+            <Card style={{ width: '15rem' }} key={index}>
                 <div><strong>{chapter.chapter}</strong></div>
+                <ListGroup>
                 { chapter.videos.map((video,idx)=> 
-                   <div key={idx} onClick={()=>this.setVideo(video)} style={{backgroundColor: '#CCE8F7',cursor:'pointer'}}>
-                     <div style={{backgroundColor:'#000',height:0.1}}></div>
+                   <ListGroup.Item variant="warning" key={idx} onClick={()=>this.setVideo(video)} >
                      {video.name}
-                   </div>
+                   </ListGroup.Item>
                  )
                 }
-              </div>
+                </ListGroup>
+              </Card>
             )
           }
         </Col>
