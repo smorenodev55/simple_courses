@@ -1,5 +1,5 @@
 {
-  "name": "surfcourses",
+  "name": "simple_courses",
   "version": "1.0.0",
   "description": "Courses downloads",
   "main": "index.js",
